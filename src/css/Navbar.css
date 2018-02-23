@@ -1,0 +1,62 @@
+.navTitle{
+	padding-right: 10px;
+}
+
+.msgWrap>div{
+	margin-top: -3px;
+}
+.msgWrap>div>ul:after{
+	content: '';
+	position: absolute;
+	top: -15px;
+	right: 21px;
+	border: 8px solid;
+	border-color: transparent transparent #fff transparent;
+}
+.msgWrap>div>ul:before{
+	content: '';
+	position: absolute;
+	top: -16px;
+	right: 21px;
+	border: 8px solid;
+	border-color: transparent transparent rgba(0,0,0,.25) transparent;
+}
+.msgWrap:hover>div>ul{
+	display: block;
+}
+
+.loginFrom{
+	margin: 0 auto;
+	width: 400px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	box-shadow: 0 0 6px #ccc;
+}
+.loginFrom>form{
+	padding: 30px;
+}
+.loginFrom a:hover{
+	text-decoration: none;
+}
+.loginFrom>div{
+	padding: 0px 30px 20px;
+	color: #888;
+}
+.loginFrom>div span{
+	cursor: pointer;
+}
+.loginFrom>div>span:hover{
+	color: #555;
+}
+
+@media (max-width: 767px){
+	.msgWrap>div{
+		display: none;
+	}
+	.loginFrom{
+		width: 100%;
+		margin-top: -40px;
+	}
+}
+
+

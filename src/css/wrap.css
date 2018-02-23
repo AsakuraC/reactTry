@@ -1,0 +1,162 @@
+.leftWrap{
+	margin-right: 240px;
+}
+
+.rightWrap{
+	position: absolute;
+	right: 0;
+	top: 60px;
+	width: 240px;
+}
+.rightWrap>div a{
+	display: flex;
+	line-height: 1.5em;
+	margin: 0 -20px;
+	align-items: center;
+	color: #8590a6;
+	padding: 0.4em 1em;
+	text-decoration: none;
+}
+.rightWrap svg{
+	margin-right: 0.4em;
+}
+.rightWrap>div span:first-of-type{
+	flex: 1;
+}
+.rightWrap>div span:last-of-type{
+	background-color: #f6f6f6;
+	border-radius: 2px;
+	padding: 0.2em 0.5em;
+}
+
+.CardClass{
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(26,26,26,.1);
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	padding: 10px 20px 5px;
+	color: #555;
+}
+
+
+.bActions{
+	margin-top: 10px;
+	padding: 5px 2px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bActions>div{
+	display: flex;
+	align-items: center;
+}
+.bActions button{
+	outline: none;
+	border: none;
+	background-color: #fff;
+	margin-right: 1.2em;
+	display: inline-flex;
+	align-items: center;
+	color: #6E7B7A;
+}
+.bActions>div[role="rightArea"] button{
+	margin-right: 0;
+	margin-left: 1.2em;
+}
+.bActions button:hover{
+	color: rgba(20, 20, 20, 0.8);
+}
+.svgClass{
+	height: 1em;
+	margin-right: 0.3em;
+}
+
+.readAll{
+	outline: none;
+	border: none;
+	background-color: inherit;
+	color: #175199;
+	position: relative;
+}
+.readAll:after{
+	content: ' ';
+	position: absolute;
+	border: 8px solid;
+	border-color: #175199 transparent transparent;
+	border-radius: 4px;
+	right: -15px;
+	top: 8px;
+	z-index: 1000;
+}
+.readAll:before{
+	content: ' ';
+	position: absolute;
+	border: 8px solid;
+	border-color: #fff transparent transparent;
+	border-radius: 4px;
+	right: -15px;
+	top: 5px;
+	z-index: 1001;
+}
+
+.comListClass{
+	margin-top: 10px;
+	border: 1px solid #ebebeb;
+}
+.comListClass>div{
+	padding: 0 0 8px;
+	border-bottom: 1px solid #efefef;
+	line-height: 1.5em;
+}
+.comListClass>div div{
+	margin-top: 5px;
+}
+.comListClass>div button{
+	outline: none;
+	background-color: inherit;
+	border: none;
+	color: #476AD6;
+	font-size: 14px;
+}
+.comListClass>div:last-of-type{
+	border-bottom: none;
+}
+
+.writeClass hr{
+	margin: 10px 0;
+}
+
+.writeClass>div{
+	padding: 15px !important;
+}
+
+.writeClass input{
+	outline: none;
+	border: none;
+	background-color: inherit;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	width: 100%;
+}
+.writeClass>div p{
+	margin-bottom: 0;
+	padding: 5px;
+}
+.writeClass div[name="content"] div{
+	padding: 5px;
+	color: #737070;
+}
+.writeClass div[name="submit"]{
+	margin-top: 10px;
+	text-align: right;
+}
+
+@media (max-width: 767px){
+	.leftWrap{
+		margin-right: 0;
+	}
+	.rightWrap{
+		
+	}
+}
